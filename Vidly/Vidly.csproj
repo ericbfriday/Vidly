@@ -241,9 +241,34 @@
     <Compile Include="Migrations\201712281806231_addingBirthdayColumn1.Designer.cs">
       <DependentUpon>201712281806231_addingBirthdayColumn1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712281816512_S3E3UpdatingTablesMovieModels.cs" />
+    <Compile Include="Migrations\201712281816512_S3E3UpdatingTablesMovieModels.Designer.cs">
+      <DependentUpon>201712281816512_S3E3UpdatingTablesMovieModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712281819015_S3E3UpdatingMovieTableDates.cs" />
+    <Compile Include="Migrations\201712281819015_S3E3UpdatingMovieTableDates.Designer.cs">
+      <DependentUpon>201712281819015_S3E3UpdatingMovieTableDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712281820276_S3E3AddingMovies.cs" />
+    <Compile Include="Migrations\201712281820276_S3E3AddingMovies.Designer.cs">
+      <DependentUpon>201712281820276_S3E3AddingMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712281830492_S3E3AddingGenreTable.cs" />
+    <Compile Include="Migrations\201712281830492_S3E3AddingGenreTable.Designer.cs">
+      <DependentUpon>201712281830492_S3E3AddingGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712281835512_S3E3PopulateGenreAndUpdateMoviesTable.cs" />
+    <Compile Include="Migrations\201712281835512_S3E3PopulateGenreAndUpdateMoviesTable.Designer.cs">
+      <DependentUpon>201712281835512_S3E3PopulateGenreAndUpdateMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712281910287_s3e3LinkingGenreAndMovieTable.cs" />
+    <Compile Include="Migrations\201712281910287_s3e3LinkingGenreAndMovieTable.Designer.cs">
+      <DependentUpon>201712281910287_s3e3LinkingGenreAndMovieTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -365,6 +390,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712281806231_addingBirthdayColumn1.resx">
       <DependentUpon>201712281806231_addingBirthdayColumn1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281816512_S3E3UpdatingTablesMovieModels.resx">
+      <DependentUpon>201712281816512_S3E3UpdatingTablesMovieModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281819015_S3E3UpdatingMovieTableDates.resx">
+      <DependentUpon>201712281819015_S3E3UpdatingMovieTableDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281820276_S3E3AddingMovies.resx">
+      <DependentUpon>201712281820276_S3E3AddingMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281830492_S3E3AddingGenreTable.resx">
+      <DependentUpon>201712281830492_S3E3AddingGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281835512_S3E3PopulateGenreAndUpdateMoviesTable.resx">
+      <DependentUpon>201712281835512_S3E3PopulateGenreAndUpdateMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712281910287_s3e3LinkingGenreAndMovieTable.resx">
+      <DependentUpon>201712281910287_s3e3LinkingGenreAndMovieTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
